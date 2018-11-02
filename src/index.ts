@@ -1771,6 +1771,7 @@ function FlatpickrInstance(
         );
         setDefaultHours();
         updateValue();
+        triggerChange();
       }
 
       if (
